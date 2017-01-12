@@ -4,8 +4,9 @@
     color: white;
     padding: 16px;
     font-size: 16px;
-    border: none;
     cursor: pointer;
+    border: solid 2px;
+    border-color: black;
 }
 
 /* Dropdown button on hover & focus */
@@ -47,7 +48,7 @@
     font-size: 50px;
     color: dodgerblue;
     background-color: orange;
-    border:3px;
+    border: solid 2px;
     border-color: black;
 }
 html {
@@ -62,4 +63,18 @@ html {
 .Display{
     Height:100px;
     width: 120px;
+    border: solid 10px;
+    border-color: orange;
+}
+.Display2{
+    Height:400px;
+    Width:400px;
+    Border:solid 10px;
+}
+.Business2{
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    border: solid 5px;
+    border-color: black;
 }
