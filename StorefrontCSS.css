@@ -78,3 +78,30 @@ html {
     border: solid 5px;
     border-color: black;
 }
+/*css for the search bar*/
+.searchbar {
+  text-decoration-style: solid #ffffff;
+  color:#ffffff;
+  padding-top:15px;
+  padding-bottom:17px;
+  width: 412px;
+  font-size:15px;
+  background-color:orange;
+  border:solid 2px;
+  border-color:black;
+}
+/*placeholder color*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ffffff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ffffff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ffffff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #ffffff;
+}
